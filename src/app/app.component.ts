@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {// commit me
-  title = 'bootcamp-2';
+export class AppComponent {
+  title = 'panelProject';
 }
-

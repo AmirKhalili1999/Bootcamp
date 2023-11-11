@@ -1,0 +1,28 @@
+.box-panel{
+  width: 95%;
+}
+
+.box-panel>table{
+  width: 100%;
+}
+
+.box-panel>table>thead>tr>th{
+  font-size: 15px;
+  font-weight: 100;
+}
+.box-panel>table>thead>tr{
+  background-color: rgb(47, 49, 70);
+  color: white;
+}
+.box-panel>table>tbody>tr{
+  background-color:rgb(246, 247, 250);
+  color: #565656;
+}
+.box-panel>table>tbody>tr>td{
+  font-size: 12px;
+}
+.box-panel>table>tbody>tr>td:nth-of-type(6)>a{
+ color: red;
+}
+
+

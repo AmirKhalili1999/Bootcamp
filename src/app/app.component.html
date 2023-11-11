@@ -1,14 +1,12 @@
-<div class="row m-0 p-0">
-  <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2">
-    <!--    <app-side></app-side>-->
+<div class="main row m-0 p-0">
+  <div class="menu col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2">
+    <app-side></app-side>
   </div>
-  <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
-    <app-header></app-header>
-    <!--    <app-nav></app-nav>-->
-
-    <router-outlet></router-outlet>
-
-    <!--    <app-footer></app-footer>-->
-    <p>mobina</p>
+  <div class="right d-flex justify-content-end col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+    <div class="inner w-100">
+      <app-header></app-header>
+      <router-outlet></router-outlet>
+      </div>
   </div>
 </div>
+
